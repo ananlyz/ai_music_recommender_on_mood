@@ -71,17 +71,12 @@ user_input,song_id,title,artist,genre,mood
 
 ### 训练模型
 ```bash
-python train.py \
-    --batch_size 32 \
-    --learning_rate 1e-5 \
-    --num_epochs 10
+python train.py 
 ```
 
 ### 评估模型
 ```bash
-python evaluate.py \
-    --model_path models/best_model.pt \
-    --test_data data/test.csv
+python evaluate.py 
 ```
 
 ### 运行推荐系统
