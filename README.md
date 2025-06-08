@@ -52,18 +52,18 @@ python preprocess.py
 ```
 
 ### 数据格式
-1. 原始数据格式：
+1. 原始数据格式 get_data执行后第一次数据处理：
 ```csv
 track_id,title,artist,genre,tags
-1234,Happy,Pharrell Williams,pop,"happy,joyful,upbeat"
-5678,Hurt,Johnny Cash,rock,"sad,melancholy,depressing"
+TRUMISQ128F9340BEE,Somebody Told Me,The Killers,"rock, alternative, indie, pop, alternative_rock, indie_rock",pumping
+TRIQRZJ128F14898B4,When You Were Young,The Killers,"rock, alternative, indie, alternative_rock, indie_rock",powerful
 ```
 
-2. 训练数据格式：
+2. 训练数据格式 preprocess执行后第二次数据处理：
 ```csv
 user_input,song_id,title,artist,genre,mood
-"开心快乐的流行时光",1,"Happy","Pharrell Williams","流行","happy"
-"感到孤独时听的摇滚",2,"Hurt","Johnny Cash","摇滚","sad"
+"开心快乐的rock, alternative, alternative_rock, 90s, funk时光",TRIODZU128E078F3E2,Under the Bridge,Red Hot Chili Peppers,"rock, alternative, alternative_rock, 90s, funk",happy
+"感到孤独时听的rock, classic_rock, hard_rock, 80s, british, 70s",TRRSVFJ128F426FB31,Bohemian Rhapsody,Queen,"rock, classic_rock, hard_rock, 80s, british, 70s",sad
 ```
 
 ##  快速开始
@@ -97,6 +97,7 @@ smartmusic/
 │   ├── raw/             # 原始数据
 │   ├── processed/       # 处理后的数据
 │   └── train/           # 训练数据
+│   └── test/            # 测试数据
 ├── models/              # 训练好的模型
 ├── get_data.py          # 数据获取脚本
 ├── preprocess.py        # 数据预处理

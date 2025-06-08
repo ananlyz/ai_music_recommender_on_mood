@@ -75,7 +75,7 @@ def main():
         song_data_path="data/train/train_data.csv"
     )
     
-    print("\n🎵 智能音乐推荐系统 (输入'q'退出)")
+    print("\n智能音乐推荐系统 (输入'q'退出)")
     while True:
         query = input("\n请描述您当前的心情或状态: ")
         if query.lower() == 'q':

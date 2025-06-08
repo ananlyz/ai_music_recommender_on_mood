@@ -38,19 +38,43 @@ def generate_state_description(row):
     templates = {
         'happy': [
             f"开心快乐的{genre}时光",
-            f"心情愉悦地听{genre}音乐"
+            f"心情愉悦地听{genre}音乐",
+            f"阳光明媚时适合的{genre}旋律",
+            f"和朋友聚会时播放的{genre}歌曲",
+            f"让人忍不住微笑的{genre}音乐",
+            f"适合庆祝时刻的{genre}乐曲",
+            f"早晨醒来听的{genre}，开启美好一天",
+            f"节日氛围中的{genre}音乐"
         ],
         'sad': [
             f"感到孤独时听的{genre}",
-            f"情绪低落时的{genre}陪伴"
+            f"情绪低落时的{genre}陪伴",
+            f"夜深人静时的{genre}旋律",
+            f"失落时安慰自己的{genre}歌曲",
+            f"下雨天适合的{genre}音乐",
+            f"回忆往事时听的{genre}乐曲",
+            f"疗愈心灵的{genre}旋律",
+            f"独自一人时的{genre}音乐"
         ],
         'energetic': [
             f"充满能量时听的{genre}",
-            f"运动健身时的{genre}动力"
+            f"运动健身时的{genre}动力",
+            f"需要打鸡血时的{genre}音乐",
+            f"早晨跑步时的{genre}节奏",
+            f"派对嗨起来的{genre}歌曲",
+            f"挑战自我时听的{genre}乐曲",
+            f"让人热血沸腾的{genre}旋律",
+            f"加快工作效率的{genre}音乐"
         ],
         'calm': [
             f"需要放松时的{genre}音乐",
-            f"平静安宁的{genre}时刻"
+            f"平静安宁的{genre}时刻",
+            f"睡前聆听的{genre}旋律",
+            f"冥想时适合的{genre}乐曲",
+            f"下班回家路上的{genre}音乐",
+            f"安静阅读时的{genre}背景乐",
+            f"舒缓压力的{genre}旋律",
+            f"午后阳光下的{genre}音乐"
         ]
     }
     
