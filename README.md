@@ -54,7 +54,7 @@ python preprocess.py
 ### 数据格式
 1. 原始数据格式 get_data执行后第一次数据处理：
 ```csv
-track_id,title,artist,genre,tags
+track_id,title,artist,genre,energy
 TRUMISQ128F9340BEE,Somebody Told Me,The Killers,"rock, alternative, indie, pop, alternative_rock, indie_rock",pumping
 TRIQRZJ128F14898B4,When You Were Young,The Killers,"rock, alternative, indie, alternative_rock, indie_rock",powerful
 ```
